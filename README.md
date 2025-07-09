@@ -1,29 +1,29 @@
 
-# Vernier Interactive Map
+# Carte interactive de Vernier
 
-This project generates an interactive HTML map displaying:
+Ce projet génère une carte HTML interactive affichant:
 
-- 🏫 Schools (blue pins)
-- 🏡 Maisons de quartier (green pins)
-- 🔵 Sub-sector bubbles sized by number of children
+- 🏫 Ecoles (épingles blue)
+- 🏡 Maisons de quartier (épingles vertes)
+- 🔵 Bulles sous-sectorielles dimensionnées par nombre d'enfants
 
-## How to Use
+## Mode d'emploi
 
-1. Place the following files in the same directory:
-   - `Coordonées_écoles_mqs_addresses.xlsx` (with sheets `écoles` and `MQs`)
-   - `final_subsector_data.csv` (with columns: Sous-secteur, Latitude, Longitude, Nombre_enfants)
+1. Placez les fichiers suivants dans le même répertoire :
+- `Coordonées_écoles_mqs_addresses.xlsx` (avec les feuilles `écoles` et `centres`)
+- `final_subsector_data.csv` (avec les colonnes : Sous-secteur, Latitude, Longitude, Nombre_enfants)
 
-2. Run the script:
+2. Exécutez le script :
 
 ```bash
 python generate_vernier_map.py
 ```
 
-3. Open `vernier_map.html` in a browser or publish it on GitHub Pages.
+3. Ouvrez `carte_vernier.html` dans un navigateur ou publiez-le sur GitHub Pages.
 
-## Hosting
+## Hébergement
 
-To publish the map:
-- Push the HTML file to your GitHub repo
-- Enable GitHub Pages in repo settings
-- Access your map at: `https://your-username.github.io/your-repo-name/`
+Pour publier la carte :
+- Envoyez le fichier HTML vers votre dépôt GitHub
+- Activez les pages GitHub dans les paramètres du dépôt
+- Accédez à votre carte à l'adresse : `https://bernardocavalcanti.github.io/carte_vernier/`
