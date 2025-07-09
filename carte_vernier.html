@@ -1,0 +1,3113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c814d546ade6fe359209f03dadb59fff {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c814d546ade6fe359209f03dadb59fff" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c814d546ade6fe359209f03dadb59fff = L.map(
+                "map_c814d546ade6fe359209f03dadb59fff",
+                {
+                    center: [46.21265822704712, 6.097903513129082],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 14,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_141ebc1181892591b4368f5380782f75 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_141ebc1181892591b4368f5380782f75.addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var marker_b67d418293d4f9e3a1d2e62d194c2114 = L.marker(
+                [46.20074238, 6.098188913],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_5a33af108e0d69840cfef5ee954db665 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_16d7a65f590087d5e72a7af1478b4a92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdc28ca9da350fbea681f6ab25331e94 = $(`<div id="html_cdc28ca9da350fbea681f6ab25331e94" style="width: 100.0%; height: 100.0%;">MQ Aïre-Le Lignon</div>`)[0];
+                popup_16d7a65f590087d5e72a7af1478b4a92.setContent(html_cdc28ca9da350fbea681f6ab25331e94);
+            
+        
+
+        marker_b67d418293d4f9e3a1d2e62d194c2114.bindPopup(popup_16d7a65f590087d5e72a7af1478b4a92)
+        ;
+
+        
+    
+    
+            marker_b67d418293d4f9e3a1d2e62d194c2114.bindTooltip(
+                `<div>
+                     École: MQ Aïre-Le Lignon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b67d418293d4f9e3a1d2e62d194c2114.setIcon(icon_5a33af108e0d69840cfef5ee954db665);
+            
+    
+            var marker_b8f9fd0f94ef891b8bd89225fd73779c = L.marker(
+                [46.2224041, 6.108681822],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_77bea22c24b1bfb3eb900b0e5add33b7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5375e0bc6d8f44c2c04ade7b8da364d6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1cd3f1370750ede8c58102278d8ddbc4 = $(`<div id="html_1cd3f1370750ede8c58102278d8ddbc4" style="width: 100.0%; height: 100.0%;">MQ des Avanchets</div>`)[0];
+                popup_5375e0bc6d8f44c2c04ade7b8da364d6.setContent(html_1cd3f1370750ede8c58102278d8ddbc4);
+            
+        
+
+        marker_b8f9fd0f94ef891b8bd89225fd73779c.bindPopup(popup_5375e0bc6d8f44c2c04ade7b8da364d6)
+        ;
+
+        
+    
+    
+            marker_b8f9fd0f94ef891b8bd89225fd73779c.bindTooltip(
+                `<div>
+                     École: MQ des Avanchets
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b8f9fd0f94ef891b8bd89225fd73779c.setIcon(icon_77bea22c24b1bfb3eb900b0e5add33b7);
+            
+    
+            var marker_eed132decec75e9adeba6759c1ba52e1 = L.marker(
+                [46.21635795, 6.112196645],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_1d0b90f9ed79040c6d5c17ab73b9f1d7 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_39cdacb9f52a1bbd466be51ca7da207e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_053490f7dcffd2b42e6a17379ea43f7e = $(`<div id="html_053490f7dcffd2b42e6a17379ea43f7e" style="width: 100.0%; height: 100.0%;">MQJR Châbal</div>`)[0];
+                popup_39cdacb9f52a1bbd466be51ca7da207e.setContent(html_053490f7dcffd2b42e6a17379ea43f7e);
+            
+        
+
+        marker_eed132decec75e9adeba6759c1ba52e1.bindPopup(popup_39cdacb9f52a1bbd466be51ca7da207e)
+        ;
+
+        
+    
+    
+            marker_eed132decec75e9adeba6759c1ba52e1.bindTooltip(
+                `<div>
+                     École: MQJR Châbal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_eed132decec75e9adeba6759c1ba52e1.setIcon(icon_1d0b90f9ed79040c6d5c17ab73b9f1d7);
+            
+    
+            var marker_7da086f9eb7d26b29166d98fe5b157a9 = L.marker(
+                [46.20443515, 6.093358567],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_22f6c30ef49493187e06e28c0305a4c8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bd849a2c1bca9c064586bb2e4fa87fcc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e00497312bd96b8594db7dd1c3748f0 = $(`<div id="html_2e00497312bd96b8594db7dd1c3748f0" style="width: 100.0%; height: 100.0%;">MQ La Carambole</div>`)[0];
+                popup_bd849a2c1bca9c064586bb2e4fa87fcc.setContent(html_2e00497312bd96b8594db7dd1c3748f0);
+            
+        
+
+        marker_7da086f9eb7d26b29166d98fe5b157a9.bindPopup(popup_bd849a2c1bca9c064586bb2e4fa87fcc)
+        ;
+
+        
+    
+    
+            marker_7da086f9eb7d26b29166d98fe5b157a9.bindTooltip(
+                `<div>
+                     École: MQ La Carambole
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7da086f9eb7d26b29166d98fe5b157a9.setIcon(icon_22f6c30ef49493187e06e28c0305a4c8);
+            
+    
+            var marker_83f1643692223871dd337b8b0b2d87c1 = L.marker(
+                [46.20593137, 6.106562377],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_b25dc4d76fc088c14cd0b80034c8e1c5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_01914b71b803ab2bea2b3593297fa639 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8e77383aea426d88a4b772747c13ac5 = $(`<div id="html_d8e77383aea426d88a4b772747c13ac5" style="width: 100.0%; height: 100.0%;">MQ de Libellues</div>`)[0];
+                popup_01914b71b803ab2bea2b3593297fa639.setContent(html_d8e77383aea426d88a4b772747c13ac5);
+            
+        
+
+        marker_83f1643692223871dd337b8b0b2d87c1.bindPopup(popup_01914b71b803ab2bea2b3593297fa639)
+        ;
+
+        
+    
+    
+            marker_83f1643692223871dd337b8b0b2d87c1.bindTooltip(
+                `<div>
+                     École: MQ de Libellues
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_83f1643692223871dd337b8b0b2d87c1.setIcon(icon_b25dc4d76fc088c14cd0b80034c8e1c5);
+            
+    
+            var marker_732d86a00cbf551db65c2ec7f46c37fd = L.marker(
+                [46.2045194, 6.093987963],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_9b4d7d97ba43e9d0347ea9e8c854dcfd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_65104d86ee44b99351f32e9fc9daaa52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bb11f5c470321c852c20b1e7f5d67edd = $(`<div id="html_bb11f5c470321c852c20b1e7f5d67edd" style="width: 100.0%; height: 100.0%;">Jardin Robinson du Lignon</div>`)[0];
+                popup_65104d86ee44b99351f32e9fc9daaa52.setContent(html_bb11f5c470321c852c20b1e7f5d67edd);
+            
+        
+
+        marker_732d86a00cbf551db65c2ec7f46c37fd.bindPopup(popup_65104d86ee44b99351f32e9fc9daaa52)
+        ;
+
+        
+    
+    
+            marker_732d86a00cbf551db65c2ec7f46c37fd.bindTooltip(
+                `<div>
+                     École: Jardin Robinson du Lignon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_732d86a00cbf551db65c2ec7f46c37fd.setIcon(icon_9b4d7d97ba43e9d0347ea9e8c854dcfd);
+            
+    
+            var marker_22f5411a54c657f7b12674b68842616c = L.marker(
+                [46.2066577, 6.111294698],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_21984b1a1a8f8cd4f5a97514f73dc252 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45c0a48709993504c91892d64ae0412e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4c78880f56e4a8a8a579144a2b73bb67 = $(`<div id="html_4c78880f56e4a8a8a579144a2b73bb67" style="width: 100.0%; height: 100.0%;">MQ la Concorde</div>`)[0];
+                popup_45c0a48709993504c91892d64ae0412e.setContent(html_4c78880f56e4a8a8a579144a2b73bb67);
+            
+        
+
+        marker_22f5411a54c657f7b12674b68842616c.bindPopup(popup_45c0a48709993504c91892d64ae0412e)
+        ;
+
+        
+    
+    
+            marker_22f5411a54c657f7b12674b68842616c.bindTooltip(
+                `<div>
+                     École: MQ la Concorde
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_22f5411a54c657f7b12674b68842616c.setIcon(icon_21984b1a1a8f8cd4f5a97514f73dc252);
+            
+    
+            var marker_6f0fd112b43eef85f727e4f0a36779d8 = L.marker(
+                [46.21887794, 6.111005265],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_1648e7f2115ebf00a9e818dd44aa9a48 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b2d8ca767983434abb44422c45b53861 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3624fd60c119373b660bbed800be08f0 = $(`<div id="html_3624fd60c119373b660bbed800be08f0" style="width: 100.0%; height: 100.0%;">MJ de l'Eclipse</div>`)[0];
+                popup_b2d8ca767983434abb44422c45b53861.setContent(html_3624fd60c119373b660bbed800be08f0);
+            
+        
+
+        marker_6f0fd112b43eef85f727e4f0a36779d8.bindPopup(popup_b2d8ca767983434abb44422c45b53861)
+        ;
+
+        
+    
+    
+            marker_6f0fd112b43eef85f727e4f0a36779d8.bindTooltip(
+                `<div>
+                     École: MJ de l'Eclipse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6f0fd112b43eef85f727e4f0a36779d8.setIcon(icon_1648e7f2115ebf00a9e818dd44aa9a48);
+            
+    
+            var marker_5bd2d178efd5f831b483f892cbfb8a22 = L.marker(
+                [46.21582009, 6.079897625],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_f9d7da2a1965e6113b7a2b96350894d6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_269f20ff342e1aa01ee19cf7d00dc796 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_efc692189d13d515fcd6d2951c416792 = $(`<div id="html_efc692189d13d515fcd6d2951c416792" style="width: 100.0%; height: 100.0%;">MQ Vernier Village</div>`)[0];
+                popup_269f20ff342e1aa01ee19cf7d00dc796.setContent(html_efc692189d13d515fcd6d2951c416792);
+            
+        
+
+        marker_5bd2d178efd5f831b483f892cbfb8a22.bindPopup(popup_269f20ff342e1aa01ee19cf7d00dc796)
+        ;
+
+        
+    
+    
+            marker_5bd2d178efd5f831b483f892cbfb8a22.bindTooltip(
+                `<div>
+                     École: MQ Vernier Village
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5bd2d178efd5f831b483f892cbfb8a22.setIcon(icon_f9d7da2a1965e6113b7a2b96350894d6);
+            
+    
+            var marker_6a217e89e4d9b2e3909fa5bb5f20a81c = L.marker(
+                [46.21172447, 6.106929258],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_32fc1157ecb4c4b141cc011446d9c0ff = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9ab949789fbbb44085c733e195247783 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ea86e25f4dfbb8fc83a7a89f9afeff4 = $(`<div id="html_4ea86e25f4dfbb8fc83a7a89f9afeff4" style="width: 100.0%; height: 100.0%;">Travailleurs Sociaux Hors Murs Vernier</div>`)[0];
+                popup_9ab949789fbbb44085c733e195247783.setContent(html_4ea86e25f4dfbb8fc83a7a89f9afeff4);
+            
+        
+
+        marker_6a217e89e4d9b2e3909fa5bb5f20a81c.bindPopup(popup_9ab949789fbbb44085c733e195247783)
+        ;
+
+        
+    
+    
+            marker_6a217e89e4d9b2e3909fa5bb5f20a81c.bindTooltip(
+                `<div>
+                     École: Travailleurs Sociaux Hors Murs Vernier
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_6a217e89e4d9b2e3909fa5bb5f20a81c.setIcon(icon_32fc1157ecb4c4b141cc011446d9c0ff);
+            
+    
+            var marker_4b834ddadbff1d33d338a64ad6c7cd2c = L.marker(
+                [46.21700872, 6.106162262],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_04aff872e56fd17ce520e3ce1ab0b2ce = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_aec05b0f4ae3b34e5010809b2fc92aef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_032ca5e3560c1dedb924551567c4eaa2 = $(`<div id="html_032ca5e3560c1dedb924551567c4eaa2" style="width: 100.0%; height: 100.0%;">MQ de l'Etang</div>`)[0];
+                popup_aec05b0f4ae3b34e5010809b2fc92aef.setContent(html_032ca5e3560c1dedb924551567c4eaa2);
+            
+        
+
+        marker_4b834ddadbff1d33d338a64ad6c7cd2c.bindPopup(popup_aec05b0f4ae3b34e5010809b2fc92aef)
+        ;
+
+        
+    
+    
+            marker_4b834ddadbff1d33d338a64ad6c7cd2c.bindTooltip(
+                `<div>
+                     École: MQ de l'Etang
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4b834ddadbff1d33d338a64ad6c7cd2c.setIcon(icon_04aff872e56fd17ce520e3ce1ab0b2ce);
+            
+    
+            var marker_8bc46ed46107f44bfaebdaaa94adf453 = L.marker(
+                [46.21566483, 6.099526076],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_ec53c44013c12cfa082a14be9b1e80c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7f84e3d1ea9873323927437e439819f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e9a7212989748f0b161ab59fc482726d = $(`<div id="html_e9a7212989748f0b161ab59fc482726d" style="width: 100.0%; height: 100.0%;">Centre de rencontres ABARC</div>`)[0];
+                popup_c7f84e3d1ea9873323927437e439819f.setContent(html_e9a7212989748f0b161ab59fc482726d);
+            
+        
+
+        marker_8bc46ed46107f44bfaebdaaa94adf453.bindPopup(popup_c7f84e3d1ea9873323927437e439819f)
+        ;
+
+        
+    
+    
+            marker_8bc46ed46107f44bfaebdaaa94adf453.bindTooltip(
+                `<div>
+                     École: Centre de rencontres ABARC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8bc46ed46107f44bfaebdaaa94adf453.setIcon(icon_ec53c44013c12cfa082a14be9b1e80c4);
+            
+    
+            var marker_0d5e0e831aab4d1198aca1deb946a21d = L.marker(
+                [46.1970018577727, 6.09574308755137],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_4aa8320aeda60ab5022878a8d6fecc43 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1580d13ea6e976b20d63814b5280a8eb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68171ac0ea05c4b3e944999f3b6f34da = $(`<div id="html_68171ac0ea05c4b3e944999f3b6f34da" style="width: 100.0%; height: 100.0%;">CO RENARD</div>`)[0];
+                popup_1580d13ea6e976b20d63814b5280a8eb.setContent(html_68171ac0ea05c4b3e944999f3b6f34da);
+            
+        
+
+        marker_0d5e0e831aab4d1198aca1deb946a21d.bindPopup(popup_1580d13ea6e976b20d63814b5280a8eb)
+        ;
+
+        
+    
+    
+            marker_0d5e0e831aab4d1198aca1deb946a21d.bindTooltip(
+                `<div>
+                     École: CO RENARD
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0d5e0e831aab4d1198aca1deb946a21d.setIcon(icon_4aa8320aeda60ab5022878a8d6fecc43);
+            
+    
+            var marker_1d68f3490f9ac083ddfc21733b787991 = L.marker(
+                [46.2009188767641, 6.10039937276154],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_f1551e497f1336e607b4adb2bc3dcf0e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3c6b0ac7a5fa1342fc1b1df5127cba86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b7897206b51e944883e89974bb8021b7 = $(`<div id="html_b7897206b51e944883e89974bb8021b7" style="width: 100.0%; height: 100.0%;">AIRE</div>`)[0];
+                popup_3c6b0ac7a5fa1342fc1b1df5127cba86.setContent(html_b7897206b51e944883e89974bb8021b7);
+            
+        
+
+        marker_1d68f3490f9ac083ddfc21733b787991.bindPopup(popup_3c6b0ac7a5fa1342fc1b1df5127cba86)
+        ;
+
+        
+    
+    
+            marker_1d68f3490f9ac083ddfc21733b787991.bindTooltip(
+                `<div>
+                     École: AIRE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_1d68f3490f9ac083ddfc21733b787991.setIcon(icon_f1551e497f1336e607b4adb2bc3dcf0e);
+            
+    
+            var marker_9d7acd814c74f1ac8ba8b4db2c7634f2 = L.marker(
+                [46.2220754092895, 6.1081121425448],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_e6a13815dd9d9cd60ea83ce7c9edab3c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f74037660f16d7e70e7c48b83ac9a3a9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fadbbae7456486a88aaff616992c1b02 = $(`<div id="html_fadbbae7456486a88aaff616992c1b02" style="width: 100.0%; height: 100.0%;">AVANCHET-JURA</div>`)[0];
+                popup_f74037660f16d7e70e7c48b83ac9a3a9.setContent(html_fadbbae7456486a88aaff616992c1b02);
+            
+        
+
+        marker_9d7acd814c74f1ac8ba8b4db2c7634f2.bindPopup(popup_f74037660f16d7e70e7c48b83ac9a3a9)
+        ;
+
+        
+    
+    
+            marker_9d7acd814c74f1ac8ba8b4db2c7634f2.bindTooltip(
+                `<div>
+                     École: AVANCHET-JURA
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9d7acd814c74f1ac8ba8b4db2c7634f2.setIcon(icon_e6a13815dd9d9cd60ea83ce7c9edab3c);
+            
+    
+            var marker_b28f0f5f4f55d2ea5465f60f142100d1 = L.marker(
+                [46.2198784810151, 6.11058728126168],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_c675df3b80e7f96afe9c1835759864c1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0662acc1fb4ff8ec30e3d1badf23b5f5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_981b3a7abfe96047cfc6ee8b0664de9c = $(`<div id="html_981b3a7abfe96047cfc6ee8b0664de9c" style="width: 100.0%; height: 100.0%;">AVANCHET-SALEVE</div>`)[0];
+                popup_0662acc1fb4ff8ec30e3d1badf23b5f5.setContent(html_981b3a7abfe96047cfc6ee8b0664de9c);
+            
+        
+
+        marker_b28f0f5f4f55d2ea5465f60f142100d1.bindPopup(popup_0662acc1fb4ff8ec30e3d1badf23b5f5)
+        ;
+
+        
+    
+    
+            marker_b28f0f5f4f55d2ea5465f60f142100d1.bindTooltip(
+                `<div>
+                     École: AVANCHET-SALEVE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_b28f0f5f4f55d2ea5465f60f142100d1.setIcon(icon_c675df3b80e7f96afe9c1835759864c1);
+            
+    
+            var marker_9190d561eb78413ed256ed48ce977fc8 = L.marker(
+                [46.216269955347, 6.10990191998904],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_3f4b95be60f34c4c2c5924d550da5863 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7db4b8e055ec972310439297b4f124ed = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e14984913174ec8a9d94d68306279aee = $(`<div id="html_e14984913174ec8a9d94d68306279aee" style="width: 100.0%; height: 100.0%;">BALEXERT</div>`)[0];
+                popup_7db4b8e055ec972310439297b4f124ed.setContent(html_e14984913174ec8a9d94d68306279aee);
+            
+        
+
+        marker_9190d561eb78413ed256ed48ce977fc8.bindPopup(popup_7db4b8e055ec972310439297b4f124ed)
+        ;
+
+        
+    
+    
+            marker_9190d561eb78413ed256ed48ce977fc8.bindTooltip(
+                `<div>
+                     École: BALEXERT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_9190d561eb78413ed256ed48ce977fc8.setIcon(icon_3f4b95be60f34c4c2c5924d550da5863);
+            
+    
+            var marker_4ce7676180db35f8d1e52ebc91a0f885 = L.marker(
+                [46.211825129964, 6.11378740704767],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_38587c4d6c0cf0db9e09d51bb2a6836a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d7c80bf6f54a5112f37ff6a39ffae041 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_824fbc4712809bbdd3651f4e30dc30d6 = $(`<div id="html_824fbc4712809bbdd3651f4e30dc30d6" style="width: 100.0%; height: 100.0%;">BOURQUIN</div>`)[0];
+                popup_d7c80bf6f54a5112f37ff6a39ffae041.setContent(html_824fbc4712809bbdd3651f4e30dc30d6);
+            
+        
+
+        marker_4ce7676180db35f8d1e52ebc91a0f885.bindPopup(popup_d7c80bf6f54a5112f37ff6a39ffae041)
+        ;
+
+        
+    
+    
+            marker_4ce7676180db35f8d1e52ebc91a0f885.bindTooltip(
+                `<div>
+                     École: BOURQUIN
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4ce7676180db35f8d1e52ebc91a0f885.setIcon(icon_38587c4d6c0cf0db9e09d51bb2a6836a);
+            
+    
+            var marker_140b3c74e0d3bac75b73774904ada53c = L.marker(
+                [46.2120466273347, 6.11256902988093],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_d53baa7b8e33e0159f7e179855adb31d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_934750fde035143116af118798dd29c4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e8e0a266a937af110907a42cd279c47 = $(`<div id="html_5e8e0a266a937af110907a42cd279c47" style="width: 100.0%; height: 100.0%;">CHATELAINE</div>`)[0];
+                popup_934750fde035143116af118798dd29c4.setContent(html_5e8e0a266a937af110907a42cd279c47);
+            
+        
+
+        marker_140b3c74e0d3bac75b73774904ada53c.bindPopup(popup_934750fde035143116af118798dd29c4)
+        ;
+
+        
+    
+    
+            marker_140b3c74e0d3bac75b73774904ada53c.bindTooltip(
+                `<div>
+                     École: CHATELAINE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_140b3c74e0d3bac75b73774904ada53c.setIcon(icon_d53baa7b8e33e0159f7e179855adb31d);
+            
+    
+            var marker_7a5c12bcf0077faa4a15aaf73479ece2 = L.marker(
+                [46.2198784810151, 6.11058728126168],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_57e462d7484ab4e77802c9359510aacd = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_428cb0f747d86c45d9a87baf10758918 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fed2ef9a07433855546fde81bd616497 = $(`<div id="html_fed2ef9a07433855546fde81bd616497" style="width: 100.0%; height: 100.0%;">CLI EP AVANCHETS</div>`)[0];
+                popup_428cb0f747d86c45d9a87baf10758918.setContent(html_fed2ef9a07433855546fde81bd616497);
+            
+        
+
+        marker_7a5c12bcf0077faa4a15aaf73479ece2.bindPopup(popup_428cb0f747d86c45d9a87baf10758918)
+        ;
+
+        
+    
+    
+            marker_7a5c12bcf0077faa4a15aaf73479ece2.bindTooltip(
+                `<div>
+                     École: CLI EP AVANCHETS
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7a5c12bcf0077faa4a15aaf73479ece2.setIcon(icon_57e462d7484ab4e77802c9359510aacd);
+            
+    
+            var marker_15891318faced716a4c139b80615d5ea = L.marker(
+                [46.2162132161855, 6.10946854070413],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_49c0463307760aa0dfd6d0e0981b6267 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f8a3710b9215abe889385b7cf078462b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cfc0eeafaae44c2f3139a42d64a9140 = $(`<div id="html_0cfc0eeafaae44c2f3139a42d64a9140" style="width: 100.0%; height: 100.0%;">CLI EP BALEXERT</div>`)[0];
+                popup_f8a3710b9215abe889385b7cf078462b.setContent(html_0cfc0eeafaae44c2f3139a42d64a9140);
+            
+        
+
+        marker_15891318faced716a4c139b80615d5ea.bindPopup(popup_f8a3710b9215abe889385b7cf078462b)
+        ;
+
+        
+    
+    
+            marker_15891318faced716a4c139b80615d5ea.bindTooltip(
+                `<div>
+                     École: CLI EP BALEXERT
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_15891318faced716a4c139b80615d5ea.setIcon(icon_49c0463307760aa0dfd6d0e0981b6267);
+            
+    
+            var marker_5c9f6e70aab72e3f86b1f2d76e28aab3 = L.marker(
+                [46.2038719898985, 6.09288254311939],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_b2191df21790b4338930922d26157dd0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_3623408fa740abbdbfad2d95b21aa66f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_71da73dc6da067b3e4befc7b3bfa581e = $(`<div id="html_71da73dc6da067b3e4befc7b3bfa581e" style="width: 100.0%; height: 100.0%;">CLI EP LIGNON</div>`)[0];
+                popup_3623408fa740abbdbfad2d95b21aa66f.setContent(html_71da73dc6da067b3e4befc7b3bfa581e);
+            
+        
+
+        marker_5c9f6e70aab72e3f86b1f2d76e28aab3.bindPopup(popup_3623408fa740abbdbfad2d95b21aa66f)
+        ;
+
+        
+    
+    
+            marker_5c9f6e70aab72e3f86b1f2d76e28aab3.bindTooltip(
+                `<div>
+                     École: CLI EP LIGNON
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_5c9f6e70aab72e3f86b1f2d76e28aab3.setIcon(icon_b2191df21790b4338930922d26157dd0);
+            
+    
+            var marker_137d79b9bdab2c92bc3b6b2f1243783d = L.marker(
+                [46.2009188767641, 6.10039937276154],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_7504173e442ebb09e713f4ee49d97636 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_d0c8284b9055de1c0dc4594c5a48891b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_486fd3c3e2672882074cb0d892d9ec7b = $(`<div id="html_486fd3c3e2672882074cb0d892d9ec7b" style="width: 100.0%; height: 100.0%;">ECPS AIRE</div>`)[0];
+                popup_d0c8284b9055de1c0dc4594c5a48891b.setContent(html_486fd3c3e2672882074cb0d892d9ec7b);
+            
+        
+
+        marker_137d79b9bdab2c92bc3b6b2f1243783d.bindPopup(popup_d0c8284b9055de1c0dc4594c5a48891b)
+        ;
+
+        
+    
+    
+            marker_137d79b9bdab2c92bc3b6b2f1243783d.bindTooltip(
+                `<div>
+                     École: ECPS AIRE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_137d79b9bdab2c92bc3b6b2f1243783d.setIcon(icon_7504173e442ebb09e713f4ee49d97636);
+            
+    
+            var marker_08d217c420c9ab99a416a523695b3148 = L.marker(
+                [46.212052605412, 6.10961948002572],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_0e32f93a6ae82009a228f75a2332a487 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_1284a9f5cfe60996af1d66ef18652f7c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eca9bca5f5a6c18de89ad131b67a7a5d = $(`<div id="html_eca9bca5f5a6c18de89ad131b67a7a5d" style="width: 100.0%; height: 100.0%;">ECPS PAILLY</div>`)[0];
+                popup_1284a9f5cfe60996af1d66ef18652f7c.setContent(html_eca9bca5f5a6c18de89ad131b67a7a5d);
+            
+        
+
+        marker_08d217c420c9ab99a416a523695b3148.bindPopup(popup_1284a9f5cfe60996af1d66ef18652f7c)
+        ;
+
+        
+    
+    
+            marker_08d217c420c9ab99a416a523695b3148.bindTooltip(
+                `<div>
+                     École: ECPS PAILLY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_08d217c420c9ab99a416a523695b3148.setIcon(icon_0e32f93a6ae82009a228f75a2332a487);
+            
+    
+            var marker_e07efe22ac2eccd1f3a36a4715d0162b = L.marker(
+                [46.2079221789051, 6.1108619382755],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_4da8550496fd13cec9b753cfc0e44a34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f279407bd1b1287550852e874eef335c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7dd183a5e5c12a7bfe9bbe8774ea142e = $(`<div id="html_7dd183a5e5c12a7bfe9bbe8774ea142e" style="width: 100.0%; height: 100.0%;">EMILIE-DE-MORSIER</div>`)[0];
+                popup_f279407bd1b1287550852e874eef335c.setContent(html_7dd183a5e5c12a7bfe9bbe8774ea142e);
+            
+        
+
+        marker_e07efe22ac2eccd1f3a36a4715d0162b.bindPopup(popup_f279407bd1b1287550852e874eef335c)
+        ;
+
+        
+    
+    
+            marker_e07efe22ac2eccd1f3a36a4715d0162b.bindTooltip(
+                `<div>
+                     École: EMILIE-DE-MORSIER
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e07efe22ac2eccd1f3a36a4715d0162b.setIcon(icon_4da8550496fd13cec9b753cfc0e44a34);
+            
+    
+            var marker_c98d05783df777207f2a24a05dc0d91b = L.marker(
+                [46.2174784431025, 6.10567529804504],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_a4d97ac47395be3e877f8aa919199274 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_32511fa873e1d545ccfcfed01b5ed0d2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3f51b1d6f084d796083a0630c0a7d79c = $(`<div id="html_3f51b1d6f084d796083a0630c0a7d79c" style="width: 100.0%; height: 100.0%;">ETANG</div>`)[0];
+                popup_32511fa873e1d545ccfcfed01b5ed0d2.setContent(html_3f51b1d6f084d796083a0630c0a7d79c);
+            
+        
+
+        marker_c98d05783df777207f2a24a05dc0d91b.bindPopup(popup_32511fa873e1d545ccfcfed01b5ed0d2)
+        ;
+
+        
+    
+    
+            marker_c98d05783df777207f2a24a05dc0d91b.bindTooltip(
+                `<div>
+                     École: ETANG
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_c98d05783df777207f2a24a05dc0d91b.setIcon(icon_a4d97ac47395be3e877f8aa919199274);
+            
+    
+            var marker_2c0870fe64f85b885359c9094429ce75 = L.marker(
+                [46.2066591516996, 6.10776218594428],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_7231f5cfae79124146339af335eb75b5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_69a23086199b2564a70206b75da419c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e7e209c5ea20ea85557119f1fc74b05 = $(`<div id="html_2e7e209c5ea20ea85557119f1fc74b05" style="width: 100.0%; height: 100.0%;">LIBELLULES</div>`)[0];
+                popup_69a23086199b2564a70206b75da419c9.setContent(html_2e7e209c5ea20ea85557119f1fc74b05);
+            
+        
+
+        marker_2c0870fe64f85b885359c9094429ce75.bindPopup(popup_69a23086199b2564a70206b75da419c9)
+        ;
+
+        
+    
+    
+            marker_2c0870fe64f85b885359c9094429ce75.bindTooltip(
+                `<div>
+                     École: LIBELLULES
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2c0870fe64f85b885359c9094429ce75.setIcon(icon_7231f5cfae79124146339af335eb75b5);
+            
+    
+            var marker_79ddb70a64f1b72770c19eaf52c1678d = L.marker(
+                [46.2039147459763, 6.09332105245133],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_9a8e3f6e110a523eb8080893fbf62eda = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_994065b902c721db6ae0b2ee0d58faad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_194e07d90dc6ea63516c2e430b63b2b0 = $(`<div id="html_194e07d90dc6ea63516c2e430b63b2b0" style="width: 100.0%; height: 100.0%;">LIGNON CE</div>`)[0];
+                popup_994065b902c721db6ae0b2ee0d58faad.setContent(html_194e07d90dc6ea63516c2e430b63b2b0);
+            
+        
+
+        marker_79ddb70a64f1b72770c19eaf52c1678d.bindPopup(popup_994065b902c721db6ae0b2ee0d58faad)
+        ;
+
+        
+    
+    
+            marker_79ddb70a64f1b72770c19eaf52c1678d.bindTooltip(
+                `<div>
+                     École: LIGNON CE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_79ddb70a64f1b72770c19eaf52c1678d.setIcon(icon_9a8e3f6e110a523eb8080893fbf62eda);
+            
+    
+            var marker_094536c80afc35a4b3372908d9512609 = L.marker(
+                [46.2039097698911, 6.09317446695911],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_4be371e9cab3777a496b361a5ac9fdd3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_defc02abb7c20d5a6b5a9cdfb74cbdbb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_714c0f38b699c0e00dfdbebe838c7cbc = $(`<div id="html_714c0f38b699c0e00dfdbebe838c7cbc" style="width: 100.0%; height: 100.0%;">LIGNON CM</div>`)[0];
+                popup_defc02abb7c20d5a6b5a9cdfb74cbdbb.setContent(html_714c0f38b699c0e00dfdbebe838c7cbc);
+            
+        
+
+        marker_094536c80afc35a4b3372908d9512609.bindPopup(popup_defc02abb7c20d5a6b5a9cdfb74cbdbb)
+        ;
+
+        
+    
+    
+            marker_094536c80afc35a4b3372908d9512609.bindTooltip(
+                `<div>
+                     École: LIGNON CM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_094536c80afc35a4b3372908d9512609.setIcon(icon_4be371e9cab3777a496b361a5ac9fdd3);
+            
+    
+            var marker_83d97796e482af939b12ed3e5164c7c3 = L.marker(
+                [46.2164456176398, 6.09159823526531],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_5361d241619448928fe82e86284840a3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f02dc0c08ef05aa1ad234ffdd6d1376e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c5368ef7241d6f807c86e7d1a04791f0 = $(`<div id="html_c5368ef7241d6f807c86e7d1a04791f0" style="width: 100.0%; height: 100.0%;">POUSSY</div>`)[0];
+                popup_f02dc0c08ef05aa1ad234ffdd6d1376e.setContent(html_c5368ef7241d6f807c86e7d1a04791f0);
+            
+        
+
+        marker_83d97796e482af939b12ed3e5164c7c3.bindPopup(popup_f02dc0c08ef05aa1ad234ffdd6d1376e)
+        ;
+
+        
+    
+    
+            marker_83d97796e482af939b12ed3e5164c7c3.bindTooltip(
+                `<div>
+                     École: POUSSY
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_83d97796e482af939b12ed3e5164c7c3.setIcon(icon_5361d241619448928fe82e86284840a3);
+            
+    
+            var marker_08b956fb8c5ffb0fb880b6d9c0741e3f = L.marker(
+                [46.2166467363639, 6.08458133921968],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_ee98bf395831a66b7dc78b66d0ddae96 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c8785bda87a3cc06bfbb95a2f4cdc773 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c2752392b60f27adb18fb5577596d76 = $(`<div id="html_9c2752392b60f27adb18fb5577596d76" style="width: 100.0%; height: 100.0%;">RANCHES CE</div>`)[0];
+                popup_c8785bda87a3cc06bfbb95a2f4cdc773.setContent(html_9c2752392b60f27adb18fb5577596d76);
+            
+        
+
+        marker_08b956fb8c5ffb0fb880b6d9c0741e3f.bindPopup(popup_c8785bda87a3cc06bfbb95a2f4cdc773)
+        ;
+
+        
+    
+    
+            marker_08b956fb8c5ffb0fb880b6d9c0741e3f.bindTooltip(
+                `<div>
+                     École: RANCHES CE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_08b956fb8c5ffb0fb880b6d9c0741e3f.setIcon(icon_ee98bf395831a66b7dc78b66d0ddae96);
+            
+    
+            var marker_2dd7e3f29ed9f7709a9845353788ca43 = L.marker(
+                [46.2166467363639, 6.08458133921968],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_14e362f894d208580cbe36df2935260b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0be8a2b61f233b661222dd221963b664 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3b65029cd0e160c809569a7ea728f074 = $(`<div id="html_3b65029cd0e160c809569a7ea728f074" style="width: 100.0%; height: 100.0%;">RANCHES CM</div>`)[0];
+                popup_0be8a2b61f233b661222dd221963b664.setContent(html_3b65029cd0e160c809569a7ea728f074);
+            
+        
+
+        marker_2dd7e3f29ed9f7709a9845353788ca43.bindPopup(popup_0be8a2b61f233b661222dd221963b664)
+        ;
+
+        
+    
+    
+            marker_2dd7e3f29ed9f7709a9845353788ca43.bindTooltip(
+                `<div>
+                     École: RANCHES CM
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_2dd7e3f29ed9f7709a9845353788ca43.setIcon(icon_14e362f894d208580cbe36df2935260b);
+            
+    
+            var marker_4edaec73b63c6fb2ac3e818fab465105 = L.marker(
+                [46.2134614562473, 6.08156227808911],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_79de9f7867483894e0bcb2ddf3d0ec8b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7841838c1ddbdadc3202b11dcf6f7ed1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_afd6dc543fd5a09cf628280d23e8a1d8 = $(`<div id="html_afd6dc543fd5a09cf628280d23e8a1d8" style="width: 100.0%; height: 100.0%;">RANCHES-VILLAGE CE</div>`)[0];
+                popup_7841838c1ddbdadc3202b11dcf6f7ed1.setContent(html_afd6dc543fd5a09cf628280d23e8a1d8);
+            
+        
+
+        marker_4edaec73b63c6fb2ac3e818fab465105.bindPopup(popup_7841838c1ddbdadc3202b11dcf6f7ed1)
+        ;
+
+        
+    
+    
+            marker_4edaec73b63c6fb2ac3e818fab465105.bindTooltip(
+                `<div>
+                     École: RANCHES-VILLAGE CE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_4edaec73b63c6fb2ac3e818fab465105.setIcon(icon_79de9f7867483894e0bcb2ddf3d0ec8b);
+            
+    
+            var marker_d6ec6223e59c34eef32cc160bfe2ff56 = L.marker(
+                [46.2167934536172, 6.08626752518033],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_9f0c0e419b442a66d3e3e5ec079fe438 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "blue",
+  "iconColor": "white",
+  "icon": "graduation-cap",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_80cbf6c2c941728cc443c621ae1c0f9d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8eeed3a2bcc15b5110f1d8172c75c175 = $(`<div id="html_8eeed3a2bcc15b5110f1d8172c75c175" style="width: 100.0%; height: 100.0%;">VERNIER-PLACE</div>`)[0];
+                popup_80cbf6c2c941728cc443c621ae1c0f9d.setContent(html_8eeed3a2bcc15b5110f1d8172c75c175);
+            
+        
+
+        marker_d6ec6223e59c34eef32cc160bfe2ff56.bindPopup(popup_80cbf6c2c941728cc443c621ae1c0f9d)
+        ;
+
+        
+    
+    
+            marker_d6ec6223e59c34eef32cc160bfe2ff56.bindTooltip(
+                `<div>
+                     École: VERNIER-PLACE
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_d6ec6223e59c34eef32cc160bfe2ff56.setIcon(icon_9f0c0e419b442a66d3e3e5ec079fe438);
+            
+    
+            var marker_8cd6c7c04c33382b01b079b0a0763e26 = L.marker(
+                [46.20593137, 6.106562377],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_27043f23db9b6edd22f1aa6255020721 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0f9932041d55e1a9ad3b879970c8cb78 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2ef04c4cda231df1613c8bb91cce4ec6 = $(`<div id="html_2ef04c4cda231df1613c8bb91cce4ec6" style="width: 100.0%; height: 100.0%;">MQ de Libellues</div>`)[0];
+                popup_0f9932041d55e1a9ad3b879970c8cb78.setContent(html_2ef04c4cda231df1613c8bb91cce4ec6);
+            
+        
+
+        marker_8cd6c7c04c33382b01b079b0a0763e26.bindPopup(popup_0f9932041d55e1a9ad3b879970c8cb78)
+        ;
+
+        
+    
+    
+            marker_8cd6c7c04c33382b01b079b0a0763e26.bindTooltip(
+                `<div>
+                     Centre: MQ de Libellues
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8cd6c7c04c33382b01b079b0a0763e26.setIcon(icon_27043f23db9b6edd22f1aa6255020721);
+            
+    
+            var marker_bb414fe900487a54e45d1ad3482e3c72 = L.marker(
+                [46.20443515, 6.093358567],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_92bbcc03a583e571ed77360ae4c6afa3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_51d336d15c54fe5b3fa6a371ff3e98e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8222d0e0210b78f60ce1935f6c6a2168 = $(`<div id="html_8222d0e0210b78f60ce1935f6c6a2168" style="width: 100.0%; height: 100.0%;">MQ La Carambole</div>`)[0];
+                popup_51d336d15c54fe5b3fa6a371ff3e98e4.setContent(html_8222d0e0210b78f60ce1935f6c6a2168);
+            
+        
+
+        marker_bb414fe900487a54e45d1ad3482e3c72.bindPopup(popup_51d336d15c54fe5b3fa6a371ff3e98e4)
+        ;
+
+        
+    
+    
+            marker_bb414fe900487a54e45d1ad3482e3c72.bindTooltip(
+                `<div>
+                     Centre: MQ La Carambole
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_bb414fe900487a54e45d1ad3482e3c72.setIcon(icon_92bbcc03a583e571ed77360ae4c6afa3);
+            
+    
+            var marker_e87c9fe9e198071aaf4fc925167127a5 = L.marker(
+                [46.20074238, 6.098188913],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_82323375fa7e51337d50d73f9505c2c4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfb07bdbefc98e9f641b9b1c144413ab = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1dbfd4bd7322f6204a1bc9f16023fd74 = $(`<div id="html_1dbfd4bd7322f6204a1bc9f16023fd74" style="width: 100.0%; height: 100.0%;">MQ Aïre-Le Lignon</div>`)[0];
+                popup_dfb07bdbefc98e9f641b9b1c144413ab.setContent(html_1dbfd4bd7322f6204a1bc9f16023fd74);
+            
+        
+
+        marker_e87c9fe9e198071aaf4fc925167127a5.bindPopup(popup_dfb07bdbefc98e9f641b9b1c144413ab)
+        ;
+
+        
+    
+    
+            marker_e87c9fe9e198071aaf4fc925167127a5.bindTooltip(
+                `<div>
+                     Centre: MQ Aïre-Le Lignon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_e87c9fe9e198071aaf4fc925167127a5.setIcon(icon_82323375fa7e51337d50d73f9505c2c4);
+            
+    
+            var marker_fab3fe0e79f4380e120e42add2486607 = L.marker(
+                [46.2045194, 6.093987963],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_024d9512b31a4f1a27bdd996856fcbb2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2f2ee5b923398aad5273b72f052997bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_418c64ea3465ffe91f2805eda98f00e7 = $(`<div id="html_418c64ea3465ffe91f2805eda98f00e7" style="width: 100.0%; height: 100.0%;">Jardin Robinson du Lignon</div>`)[0];
+                popup_2f2ee5b923398aad5273b72f052997bb.setContent(html_418c64ea3465ffe91f2805eda98f00e7);
+            
+        
+
+        marker_fab3fe0e79f4380e120e42add2486607.bindPopup(popup_2f2ee5b923398aad5273b72f052997bb)
+        ;
+
+        
+    
+    
+            marker_fab3fe0e79f4380e120e42add2486607.bindTooltip(
+                `<div>
+                     Centre: Jardin Robinson du Lignon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_fab3fe0e79f4380e120e42add2486607.setIcon(icon_024d9512b31a4f1a27bdd996856fcbb2);
+            
+    
+            var marker_74bdbfc66f236dcc04010d514463f7e1 = L.marker(
+                [46.21582009, 6.079897625],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_5507afc8072e632601c15ffecc6e4528 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_bf1c955a84a8224b51acb7d259dd9bdf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebcf5bc7b4f81c927b8edd93afe1573e = $(`<div id="html_ebcf5bc7b4f81c927b8edd93afe1573e" style="width: 100.0%; height: 100.0%;">MQ Vernier Village</div>`)[0];
+                popup_bf1c955a84a8224b51acb7d259dd9bdf.setContent(html_ebcf5bc7b4f81c927b8edd93afe1573e);
+            
+        
+
+        marker_74bdbfc66f236dcc04010d514463f7e1.bindPopup(popup_bf1c955a84a8224b51acb7d259dd9bdf)
+        ;
+
+        
+    
+    
+            marker_74bdbfc66f236dcc04010d514463f7e1.bindTooltip(
+                `<div>
+                     Centre: MQ Vernier Village
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_74bdbfc66f236dcc04010d514463f7e1.setIcon(icon_5507afc8072e632601c15ffecc6e4528);
+            
+    
+            var marker_817e68635cb6ad0f75cb8137c97a4e6e = L.marker(
+                [46.21566483, 6.099526076],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_e1ef2e31add6ff123cf5b7d30f034e3d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e863c3e0a3f51c0659a27124ad093e35 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e4ce016565177a50709bda252b8389a9 = $(`<div id="html_e4ce016565177a50709bda252b8389a9" style="width: 100.0%; height: 100.0%;">Centre de rencontres ABARC</div>`)[0];
+                popup_e863c3e0a3f51c0659a27124ad093e35.setContent(html_e4ce016565177a50709bda252b8389a9);
+            
+        
+
+        marker_817e68635cb6ad0f75cb8137c97a4e6e.bindPopup(popup_e863c3e0a3f51c0659a27124ad093e35)
+        ;
+
+        
+    
+    
+            marker_817e68635cb6ad0f75cb8137c97a4e6e.bindTooltip(
+                `<div>
+                     Centre: Centre de rencontres ABARC
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_817e68635cb6ad0f75cb8137c97a4e6e.setIcon(icon_e1ef2e31add6ff123cf5b7d30f034e3d);
+            
+    
+            var marker_7e7031f17484311f5e28ab2749fda1c6 = L.marker(
+                [46.2224041, 6.108681822],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_c594bbd0716123fdab24cdabe5dc34fb = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_e6293eb0ec0790a8c197657714d38570 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_97f3fc73d77c727ddbc5a52cc34dd153 = $(`<div id="html_97f3fc73d77c727ddbc5a52cc34dd153" style="width: 100.0%; height: 100.0%;">MQ des Avanchets</div>`)[0];
+                popup_e6293eb0ec0790a8c197657714d38570.setContent(html_97f3fc73d77c727ddbc5a52cc34dd153);
+            
+        
+
+        marker_7e7031f17484311f5e28ab2749fda1c6.bindPopup(popup_e6293eb0ec0790a8c197657714d38570)
+        ;
+
+        
+    
+    
+            marker_7e7031f17484311f5e28ab2749fda1c6.bindTooltip(
+                `<div>
+                     Centre: MQ des Avanchets
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_7e7031f17484311f5e28ab2749fda1c6.setIcon(icon_c594bbd0716123fdab24cdabe5dc34fb);
+            
+    
+            var marker_0085a477975bfb62de4d9a786bccf9f2 = L.marker(
+                [46.21635795, 6.112196645],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_7cd2025949def39a8299ee8d6ac6d03d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_72e3c1c7a115c9f36dfa68c8be747806 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9d8bd8510b8c38feda1b1482ac4ca3d = $(`<div id="html_c9d8bd8510b8c38feda1b1482ac4ca3d" style="width: 100.0%; height: 100.0%;">MQJR Châbal</div>`)[0];
+                popup_72e3c1c7a115c9f36dfa68c8be747806.setContent(html_c9d8bd8510b8c38feda1b1482ac4ca3d);
+            
+        
+
+        marker_0085a477975bfb62de4d9a786bccf9f2.bindPopup(popup_72e3c1c7a115c9f36dfa68c8be747806)
+        ;
+
+        
+    
+    
+            marker_0085a477975bfb62de4d9a786bccf9f2.bindTooltip(
+                `<div>
+                     Centre: MQJR Châbal
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_0085a477975bfb62de4d9a786bccf9f2.setIcon(icon_7cd2025949def39a8299ee8d6ac6d03d);
+            
+    
+            var marker_8b2505e4ddcb22f20124a5212f164454 = L.marker(
+                [46.21887794, 6.111005265],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_a0577be36ba94845c3422cabed871704 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fd1c16347efe81d3c1cb256ceeb583ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_757f889c231556ca951570191de8a8a7 = $(`<div id="html_757f889c231556ca951570191de8a8a7" style="width: 100.0%; height: 100.0%;">MJ de l'Eclipse</div>`)[0];
+                popup_fd1c16347efe81d3c1cb256ceeb583ae.setContent(html_757f889c231556ca951570191de8a8a7);
+            
+        
+
+        marker_8b2505e4ddcb22f20124a5212f164454.bindPopup(popup_fd1c16347efe81d3c1cb256ceeb583ae)
+        ;
+
+        
+    
+    
+            marker_8b2505e4ddcb22f20124a5212f164454.bindTooltip(
+                `<div>
+                     Centre: MJ de l'Eclipse
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_8b2505e4ddcb22f20124a5212f164454.setIcon(icon_a0577be36ba94845c3422cabed871704);
+            
+    
+            var marker_cfd00bad05617874710775648d08bedf = L.marker(
+                [46.2066577, 6.111294698],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_96a6d27168a3452a98aa1433e4e4407a = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4fa508ea1974a0b7269c82578c2c6533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02e4893f8d4aa37e7c95cefe6dc19637 = $(`<div id="html_02e4893f8d4aa37e7c95cefe6dc19637" style="width: 100.0%; height: 100.0%;">MQ la Concorde</div>`)[0];
+                popup_4fa508ea1974a0b7269c82578c2c6533.setContent(html_02e4893f8d4aa37e7c95cefe6dc19637);
+            
+        
+
+        marker_cfd00bad05617874710775648d08bedf.bindPopup(popup_4fa508ea1974a0b7269c82578c2c6533)
+        ;
+
+        
+    
+    
+            marker_cfd00bad05617874710775648d08bedf.bindTooltip(
+                `<div>
+                     Centre: MQ la Concorde
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_cfd00bad05617874710775648d08bedf.setIcon(icon_96a6d27168a3452a98aa1433e4e4407a);
+            
+    
+            var marker_a4153f17d4440755667e176f4c3b01d9 = L.marker(
+                [46.21700872, 6.106162262],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_c67627b078400c2db8d5d72d178432d3 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_cf3b5f78fd433b86f743c1dadef1d978 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d919fad4846feb1b513fcd9e9367d5bc = $(`<div id="html_d919fad4846feb1b513fcd9e9367d5bc" style="width: 100.0%; height: 100.0%;">MQ de l'Etang</div>`)[0];
+                popup_cf3b5f78fd433b86f743c1dadef1d978.setContent(html_d919fad4846feb1b513fcd9e9367d5bc);
+            
+        
+
+        marker_a4153f17d4440755667e176f4c3b01d9.bindPopup(popup_cf3b5f78fd433b86f743c1dadef1d978)
+        ;
+
+        
+    
+    
+            marker_a4153f17d4440755667e176f4c3b01d9.bindTooltip(
+                `<div>
+                     Centre: MQ de l'Etang
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_a4153f17d4440755667e176f4c3b01d9.setIcon(icon_c67627b078400c2db8d5d72d178432d3);
+            
+    
+            var marker_16bf9e3aceb3d2882f86ec4f11e0e868 = L.marker(
+                [46.21172447, 6.106929258],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_cf577643b4171233fe635b45610bcf34 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c7d13873dcf16c6616286520c9918e86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4ba507e365dc27bdb617e747e5234c33 = $(`<div id="html_4ba507e365dc27bdb617e747e5234c33" style="width: 100.0%; height: 100.0%;">Travailleurs Sociaux Hors Murs Vernier</div>`)[0];
+                popup_c7d13873dcf16c6616286520c9918e86.setContent(html_4ba507e365dc27bdb617e747e5234c33);
+            
+        
+
+        marker_16bf9e3aceb3d2882f86ec4f11e0e868.bindPopup(popup_c7d13873dcf16c6616286520c9918e86)
+        ;
+
+        
+    
+    
+            marker_16bf9e3aceb3d2882f86ec4f11e0e868.bindTooltip(
+                `<div>
+                     Centre: Travailleurs Sociaux Hors Murs Vernier
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_16bf9e3aceb3d2882f86ec4f11e0e868.setIcon(icon_cf577643b4171233fe635b45610bcf34);
+            
+    
+            var marker_53f8013682e27b08254993150c618441 = L.marker(
+                [46.20447219, 6.095457058],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_9183b5532da751ec38ffcf2621a943a5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9abeb07ac5f8b75235b63a4de7641ebc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c9bc4e423ac5d739a30d1c08dd715b27 = $(`<div id="html_c9bc4e423ac5d739a30d1c08dd715b27" style="width: 100.0%; height: 100.0%;">Ludothèque d'Aïre-Le Lignon</div>`)[0];
+                popup_9abeb07ac5f8b75235b63a4de7641ebc.setContent(html_c9bc4e423ac5d739a30d1c08dd715b27);
+            
+        
+
+        marker_53f8013682e27b08254993150c618441.bindPopup(popup_9abeb07ac5f8b75235b63a4de7641ebc)
+        ;
+
+        
+    
+    
+            marker_53f8013682e27b08254993150c618441.bindTooltip(
+                `<div>
+                     Centre: Ludothèque d'Aïre-Le Lignon
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_53f8013682e27b08254993150c618441.setIcon(icon_9183b5532da751ec38ffcf2621a943a5);
+            
+    
+            var marker_817bd1939cbe00235e93d7d69267c163 = L.marker(
+                [46.2211634, 6.1097049],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_d8cca324703d2a8bfb7486982aa233e6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_fdda679cce733efa58cf90530c5c3faa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dd13173737d1cf0743a8c27300e0bf98 = $(`<div id="html_dd13173737d1cf0743a8c27300e0bf98" style="width: 100.0%; height: 100.0%;">Ludothèque des Avanchets</div>`)[0];
+                popup_fdda679cce733efa58cf90530c5c3faa.setContent(html_dd13173737d1cf0743a8c27300e0bf98);
+            
+        
+
+        marker_817bd1939cbe00235e93d7d69267c163.bindPopup(popup_fdda679cce733efa58cf90530c5c3faa)
+        ;
+
+        
+    
+    
+            marker_817bd1939cbe00235e93d7d69267c163.bindTooltip(
+                `<div>
+                     Centre: Ludothèque des Avanchets
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_817bd1939cbe00235e93d7d69267c163.setIcon(icon_d8cca324703d2a8bfb7486982aa233e6);
+            
+    
+            var marker_09ca89d78cef9df745e246cb44e0a63a = L.marker(
+                [46.21098515, 6.112831342],
+                {
+}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+            var icon_2b6c47471fd20dc411c6890a97125206 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "home",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a07ad13764336d0272b4b7fa2807ff0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9a4ee8b9210238255ab644ca7d0fca94 = $(`<div id="html_9a4ee8b9210238255ab644ca7d0fca94" style="width: 100.0%; height: 100.0%;">Ludothèque de Châtelaine</div>`)[0];
+                popup_a07ad13764336d0272b4b7fa2807ff0f.setContent(html_9a4ee8b9210238255ab644ca7d0fca94);
+            
+        
+
+        marker_09ca89d78cef9df745e246cb44e0a63a.bindPopup(popup_a07ad13764336d0272b4b7fa2807ff0f)
+        ;
+
+        
+    
+    
+            marker_09ca89d78cef9df745e246cb44e0a63a.bindTooltip(
+                `<div>
+                     Centre: Ludothèque de Châtelaine
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+                marker_09ca89d78cef9df745e246cb44e0a63a.setIcon(icon_2b6c47471fd20dc411c6890a97125206);
+            
+    
+            var circle_marker_ba881898bf6768942d087b9f369a7e73 = L.circleMarker(
+                [46.21729074609012, 6.089334751771772],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.119113252073776, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_6e47ba7e59e6a277e90d5fd0e6c9369b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_51c112191b3736d35fb757f2ec7f3310 = $(`<div id="html_51c112191b3736d35fb757f2ec7f3310" style="width: 100.0%; height: 100.0%;">Poussy - Champ-Claude<br>Enfants: 412</div>`)[0];
+                popup_6e47ba7e59e6a277e90d5fd0e6c9369b.setContent(html_51c112191b3736d35fb757f2ec7f3310);
+            
+        
+
+        circle_marker_ba881898bf6768942d087b9f369a7e73.bindPopup(popup_6e47ba7e59e6a277e90d5fd0e6c9369b)
+        ;
+
+        
+    
+    
+            circle_marker_ba881898bf6768942d087b9f369a7e73.bindTooltip(
+                `<div>
+                     Poussy - Champ-Claude (412 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_dfbd0da07d7f148a8b70008b4a6f1f69 = L.circleMarker(
+                [46.21880100467638, 6.078810696411152],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.713142742834281, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_93ff73ebff3799df152e54e103e34ccf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4e1a04e6e3a108063e4aa6e4a08a2a9c = $(`<div id="html_4e1a04e6e3a108063e4aa6e4a08a2a9c" style="width: 100.0%; height: 100.0%;">Mouille-Galand<br>Enfants: 204</div>`)[0];
+                popup_93ff73ebff3799df152e54e103e34ccf.setContent(html_4e1a04e6e3a108063e4aa6e4a08a2a9c);
+            
+        
+
+        circle_marker_dfbd0da07d7f148a8b70008b4a6f1f69.bindPopup(popup_93ff73ebff3799df152e54e103e34ccf)
+        ;
+
+        
+    
+    
+            circle_marker_dfbd0da07d7f148a8b70008b4a6f1f69.bindTooltip(
+                `<div>
+                     Mouille-Galand (204 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_854a73a3d3480a0b6fcb8bdf942ba08d = L.circleMarker(
+                [46.22070608534085, 6.108870465830106],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.959942693292117, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_9041085f66ed6fe26358b1b0123d3ee7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b086d523622ab45641f8ad12f835df2b = $(`<div id="html_b086d523622ab45641f8ad12f835df2b" style="width: 100.0%; height: 100.0%;">Les Avanchets<br>Enfants: 1218</div>`)[0];
+                popup_9041085f66ed6fe26358b1b0123d3ee7.setContent(html_b086d523622ab45641f8ad12f835df2b);
+            
+        
+
+        circle_marker_854a73a3d3480a0b6fcb8bdf942ba08d.bindPopup(popup_9041085f66ed6fe26358b1b0123d3ee7)
+        ;
+
+        
+    
+    
+            circle_marker_854a73a3d3480a0b6fcb8bdf942ba08d.bindTooltip(
+                `<div>
+                     Les Avanchets (1218 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_9975d8f8263f76ab3ba8f5f617cd7dc4 = L.circleMarker(
+                [46.21826583736262, 6.104659589518401],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.68831137270991, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_71b8c927d81ae34a1fad8cec416f0e3d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3cf9269a7135d1a8fa80b151fdd2a766 = $(`<div id="html_3cf9269a7135d1a8fa80b151fdd2a766" style="width: 100.0%; height: 100.0%;">Etang-Des-Tritons<br>Enfants: 714</div>`)[0];
+                popup_71b8c927d81ae34a1fad8cec416f0e3d.setContent(html_3cf9269a7135d1a8fa80b151fdd2a766);
+            
+        
+
+        circle_marker_9975d8f8263f76ab3ba8f5f617cd7dc4.bindPopup(popup_71b8c927d81ae34a1fad8cec416f0e3d)
+        ;
+
+        
+    
+    
+            circle_marker_9975d8f8263f76ab3ba8f5f617cd7dc4.bindTooltip(
+                `<div>
+                     Etang-Des-Tritons (714 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_8c22076c45cf466f3abd0b55d8c496ed = L.circleMarker(
+                [46.222437715120655, 6.113217008409272],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.713142742834281, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_0f7a3340577ebba8173f6603d3e99f54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d44b06424c275083b0ad59cd1906585b = $(`<div id="html_d44b06424c275083b0ad59cd1906585b" style="width: 100.0%; height: 100.0%;">Vernier - Cointrin<br>Enfants: 204</div>`)[0];
+                popup_0f7a3340577ebba8173f6603d3e99f54.setContent(html_d44b06424c275083b0ad59cd1906585b);
+            
+        
+
+        circle_marker_8c22076c45cf466f3abd0b55d8c496ed.bindPopup(popup_0f7a3340577ebba8173f6603d3e99f54)
+        ;
+
+        
+    
+    
+            circle_marker_8c22076c45cf466f3abd0b55d8c496ed.bindTooltip(
+                `<div>
+                     Vernier - Cointrin (204 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_038bbc49f197f9f8bbc2e478b9e1e857 = L.circleMarker(
+                [46.20696142725913, 6.102075046592844],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.717142249498666, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_79e02e5cbd7cd2e1f66fb6476804693f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_17ccf9247dd6b450638c39a938cc1e64 = $(`<div id="html_17ccf9247dd6b450638c39a938cc1e64" style="width: 100.0%; height: 100.0%;">Usine À Gaz<br>Enfants: 282</div>`)[0];
+                popup_79e02e5cbd7cd2e1f66fb6476804693f.setContent(html_17ccf9247dd6b450638c39a938cc1e64);
+            
+        
+
+        circle_marker_038bbc49f197f9f8bbc2e478b9e1e857.bindPopup(popup_79e02e5cbd7cd2e1f66fb6476804693f)
+        ;
+
+        
+    
+    
+            circle_marker_038bbc49f197f9f8bbc2e478b9e1e857.bindTooltip(
+                `<div>
+                     Usine À Gaz (282 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_49db3bb31e8bbb6e4726d99fc3bf646a = L.circleMarker(
+                [46.20891683514892, 6.107441983100788],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.959919678390985, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_c853d20f6d384cafc680cbb121ebfb0c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9a72547668660ecd443008f1219fee6 = $(`<div id="html_d9a72547668660ecd443008f1219fee6" style="width: 100.0%; height: 100.0%;">Libellules<br>Enfants: 620</div>`)[0];
+                popup_c853d20f6d384cafc680cbb121ebfb0c.setContent(html_d9a72547668660ecd443008f1219fee6);
+            
+        
+
+        circle_marker_49db3bb31e8bbb6e4726d99fc3bf646a.bindPopup(popup_c853d20f6d384cafc680cbb121ebfb0c)
+        ;
+
+        
+    
+    
+            circle_marker_49db3bb31e8bbb6e4726d99fc3bf646a.bindTooltip(
+                `<div>
+                     Libellules (620 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_b07a70e2bbad883380b929ae36b2e8e3 = L.circleMarker(
+                [46.22049005438881, 6.09006891310836],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.513619500836088, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_3bf55d5d076bfa39d03e7a45c08649d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9792e0ae89bd62ade8f8ed8977662980 = $(`<div id="html_9792e0ae89bd62ade8f8ed8977662980" style="width: 100.0%; height: 100.0%;">Bel-Ebat<br>Enfants: 190</div>`)[0];
+                popup_3bf55d5d076bfa39d03e7a45c08649d4.setContent(html_9792e0ae89bd62ade8f8ed8977662980);
+            
+        
+
+        circle_marker_b07a70e2bbad883380b929ae36b2e8e3.bindPopup(popup_3bf55d5d076bfa39d03e7a45c08649d4)
+        ;
+
+        
+    
+    
+            circle_marker_b07a70e2bbad883380b929ae36b2e8e3.bindTooltip(
+                `<div>
+                     Bel-Ebat (190 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_81f8484ad2404abcffb75f9f1509cc42 = L.circleMarker(
+                [46.22226459981571, 6.09187936414752],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 4.3266615305567875, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_311b845180b873138da83c2399b7313d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3012e3ac6d4be8fa0c3c0cca3adf9cc = $(`<div id="html_e3012e3ac6d4be8fa0c3c0cca3adf9cc" style="width: 100.0%; height: 100.0%;">Champs-Prévost<br>Enfants: 117</div>`)[0];
+                popup_311b845180b873138da83c2399b7313d.setContent(html_e3012e3ac6d4be8fa0c3c0cca3adf9cc);
+            
+        
+
+        circle_marker_81f8484ad2404abcffb75f9f1509cc42.bindPopup(popup_311b845180b873138da83c2399b7313d)
+        ;
+
+        
+    
+    
+            circle_marker_81f8484ad2404abcffb75f9f1509cc42.bindTooltip(
+                `<div>
+                     Champs-Prévost (117 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_4e60528b97da013654fc7c76228fe347 = L.circleMarker(
+                [46.208498783583046, 6.076631037918434],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.838699100999076, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_d6d8236152bb49658af1039cad8689dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9be7c362fcf4084ecbdf146f23690298 = $(`<div id="html_9be7c362fcf4084ecbdf146f23690298" style="width: 100.0%; height: 100.0%;">Les Vidollets<br>Enfants: 605</div>`)[0];
+                popup_d6d8236152bb49658af1039cad8689dd.setContent(html_9be7c362fcf4084ecbdf146f23690298);
+            
+        
+
+        circle_marker_4e60528b97da013654fc7c76228fe347.bindPopup(popup_d6d8236152bb49658af1039cad8689dd)
+        ;
+
+        
+    
+    
+            circle_marker_4e60528b97da013654fc7c76228fe347.bindTooltip(
+                `<div>
+                     Les Vidollets (605 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_909ff545610e40c0b0d7931998aea5f2 = L.circleMarker(
+                [46.21370239360466, 6.075717807316039],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.699122739510003, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_3eeed0c9df9eb2222f1659cc8960e5d7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1cc7f371030793f708165f95e23b1d3 = $(`<div id="html_a1cc7f371030793f708165f95e23b1d3" style="width: 100.0%; height: 100.0%;">Rte De Peney - Crotte-Au-Loup<br>Enfants: 203</div>`)[0];
+                popup_3eeed0c9df9eb2222f1659cc8960e5d7.setContent(html_a1cc7f371030793f708165f95e23b1d3);
+            
+        
+
+        circle_marker_909ff545610e40c0b0d7931998aea5f2.bindPopup(popup_3eeed0c9df9eb2222f1659cc8960e5d7)
+        ;
+
+        
+    
+    
+            circle_marker_909ff545610e40c0b0d7931998aea5f2.bindTooltip(
+                `<div>
+                     Rte De Peney - Crotte-Au-Loup (203 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d17c7366bb52735ae1a8071af3275c9a = L.circleMarker(
+                [46.20438330986722, 6.094754085454403],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 14.527215837867903, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_99a0c51602810724b325680be770dbcb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_905a665897445f3a4f63f4b435185b73 = $(`<div id="html_905a665897445f3a4f63f4b435185b73" style="width: 100.0%; height: 100.0%;">Le Lignon<br>Enfants: 1319</div>`)[0];
+                popup_99a0c51602810724b325680be770dbcb.setContent(html_905a665897445f3a4f63f4b435185b73);
+            
+        
+
+        circle_marker_d17c7366bb52735ae1a8071af3275c9a.bindPopup(popup_99a0c51602810724b325680be770dbcb)
+        ;
+
+        
+    
+    
+            circle_marker_d17c7366bb52735ae1a8071af3275c9a.bindTooltip(
+                `<div>
+                     Le Lignon (1319 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_d62b4df600a441d4df18bfa84c181d9f = L.circleMarker(
+                [46.213181243878594, 6.096206955834905],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.32120208708925, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_8b113baa7d6f32f1cf65f1f7d243b137 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a92ffbc0bae415e657a16e9fb6b3fd0 = $(`<div id="html_1a92ffbc0bae415e657a16e9fb6b3fd0" style="width: 100.0%; height: 100.0%;">Bois-Des-Frères<br>Enfants: 335</div>`)[0];
+                popup_8b113baa7d6f32f1cf65f1f7d243b137.setContent(html_1a92ffbc0bae415e657a16e9fb6b3fd0);
+            
+        
+
+        circle_marker_d62b4df600a441d4df18bfa84c181d9f.bindPopup(popup_8b113baa7d6f32f1cf65f1f7d243b137)
+        ;
+
+        
+    
+    
+            circle_marker_d62b4df600a441d4df18bfa84c181d9f.bindTooltip(
+                `<div>
+                     Bois-Des-Frères (335 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_a8b98207be12b150b1ca240058749d3a = L.circleMarker(
+                [46.21245546485116, 6.084569353191125],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 1.788854381999832, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_37f023e1fa497fb32bcac6a9846a3272 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8826fd8592fc5b790bbdafab38df1915 = $(`<div id="html_8826fd8592fc5b790bbdafab38df1915" style="width: 100.0%; height: 100.0%;">Vernier - Village<br>Enfants: 20</div>`)[0];
+                popup_37f023e1fa497fb32bcac6a9846a3272.setContent(html_8826fd8592fc5b790bbdafab38df1915);
+            
+        
+
+        circle_marker_a8b98207be12b150b1ca240058749d3a.bindPopup(popup_37f023e1fa497fb32bcac6a9846a3272)
+        ;
+
+        
+    
+    
+            circle_marker_a8b98207be12b150b1ca240058749d3a.bindTooltip(
+                `<div>
+                     Vernier - Village (20 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_78c167f7dda4423fd40a653d6e854652 = L.circleMarker(
+                [46.2052230497218, 6.07849021173132],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2.1908902300206643, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_525aaae7185e2200ec4997ae0e1cc7a1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_01fb87bd219cdcd1edff7c60602627b1 = $(`<div id="html_01fb87bd219cdcd1edff7c60602627b1" style="width: 100.0%; height: 100.0%;">Le Canada<br>Enfants: 30</div>`)[0];
+                popup_525aaae7185e2200ec4997ae0e1cc7a1.setContent(html_01fb87bd219cdcd1edff7c60602627b1);
+            
+        
+
+        circle_marker_78c167f7dda4423fd40a653d6e854652.bindPopup(popup_525aaae7185e2200ec4997ae0e1cc7a1)
+        ;
+
+        
+    
+    
+            circle_marker_78c167f7dda4423fd40a653d6e854652.bindTooltip(
+                `<div>
+                     Le Canada (30 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_92f0f256c4ad5f84cbb5504427dc94be = L.circleMarker(
+                [46.20237676957882, 6.104626993657943],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.019975062305368, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_00094365b76021df6d59842c699b6586 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a691a77c7b09c839233763a9423a1ab2 = $(`<div id="html_a691a77c7b09c839233763a9423a1ab2" style="width: 100.0%; height: 100.0%;">Aïre - Pont-Butin<br>Enfants: 402</div>`)[0];
+                popup_00094365b76021df6d59842c699b6586.setContent(html_a691a77c7b09c839233763a9423a1ab2);
+            
+        
+
+        circle_marker_92f0f256c4ad5f84cbb5504427dc94be.bindPopup(popup_00094365b76021df6d59842c699b6586)
+        ;
+
+        
+    
+    
+            circle_marker_92f0f256c4ad5f84cbb5504427dc94be.bindTooltip(
+                `<div>
+                     Aïre - Pont-Butin (402 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_df2fff0d9fc1f6f359d37baf112409fc = L.circleMarker(
+                [46.20885392616537, 6.110735397594745],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8.917398723843181, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_2d63227a9dc1a88c0cefcfcc4d75d2e7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9371eb7a98ca6208936fda972f376774 = $(`<div id="html_9371eb7a98ca6208936fda972f376774" style="width: 100.0%; height: 100.0%;">Châtelaine - Simonet<br>Enfants: 497</div>`)[0];
+                popup_2d63227a9dc1a88c0cefcfcc4d75d2e7.setContent(html_9371eb7a98ca6208936fda972f376774);
+            
+        
+
+        circle_marker_df2fff0d9fc1f6f359d37baf112409fc.bindPopup(popup_2d63227a9dc1a88c0cefcfcc4d75d2e7)
+        ;
+
+        
+    
+    
+            circle_marker_df2fff0d9fc1f6f359d37baf112409fc.bindTooltip(
+                `<div>
+                     Châtelaine - Simonet (497 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_182e134e09f9c34fa0677cbb3dbc8382 = L.circleMarker(
+                [46.21339667085572, 6.1132735375787775],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.99090533122727, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_4f6a7deb31dcc7af73b067e7a3e3c205 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c9e78c7ed493d0c211c0a2ad58b07b4 = $(`<div id="html_8c9e78c7ed493d0c211c0a2ad58b07b4" style="width: 100.0%; height: 100.0%;">Châtelaine - Village<br>Enfants: 755</div>`)[0];
+                popup_4f6a7deb31dcc7af73b067e7a3e3c205.setContent(html_8c9e78c7ed493d0c211c0a2ad58b07b4);
+            
+        
+
+        circle_marker_182e134e09f9c34fa0677cbb3dbc8382.bindPopup(popup_4f6a7deb31dcc7af73b067e7a3e3c205)
+        ;
+
+        
+    
+    
+            circle_marker_182e134e09f9c34fa0677cbb3dbc8382.bindTooltip(
+                `<div>
+                     Châtelaine - Village (755 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_401dafac813c437e32b0a839d4062402 = L.circleMarker(
+                [46.21674629516109, 6.114123178084874],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.015542135667715, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_b8f4277629c104be2bad93b989a73852 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2261fe74ac1a13bdcf7fc6c98593d2b7 = $(`<div id="html_2261fe74ac1a13bdcf7fc6c98593d2b7" style="width: 100.0%; height: 100.0%;">Balexert - Crozet<br>Enfants: 508</div>`)[0];
+                popup_b8f4277629c104be2bad93b989a73852.setContent(html_2261fe74ac1a13bdcf7fc6c98593d2b7);
+            
+        
+
+        circle_marker_401dafac813c437e32b0a839d4062402.bindPopup(popup_b8f4277629c104be2bad93b989a73852)
+        ;
+
+        
+    
+    
+            circle_marker_401dafac813c437e32b0a839d4062402.bindTooltip(
+                `<div>
+                     Balexert - Crozet (508 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var circle_marker_5ac2a728dd6c3a692c9cc0fab68f071a = L.circleMarker(
+                [46.21829024598836, 6.114125258898264],
+                {"bubblingMouseEvents": true, "color": "crimson", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "crimson", "fillOpacity": 0.5, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 3.622154055254967, "stroke": true, "weight": 3}
+            ).addTo(map_c814d546ade6fe359209f03dadb59fff);
+        
+    
+        var popup_4b3854f8d1bcabe205983a08c39d4c57 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8d28f8ca200c0bb2be1b4082c872300f = $(`<div id="html_8d28f8ca200c0bb2be1b4082c872300f" style="width: 100.0%; height: 100.0%;">Balexert - Centre<br>Enfants: 82</div>`)[0];
+                popup_4b3854f8d1bcabe205983a08c39d4c57.setContent(html_8d28f8ca200c0bb2be1b4082c872300f);
+            
+        
+
+        circle_marker_5ac2a728dd6c3a692c9cc0fab68f071a.bindPopup(popup_4b3854f8d1bcabe205983a08c39d4c57)
+        ;
+
+        
+    
+    
+            circle_marker_5ac2a728dd6c3a692c9cc0fab68f071a.bindTooltip(
+                `<div>
+                     Balexert - Centre (82 enfants)
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>
